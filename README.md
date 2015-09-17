@@ -4,14 +4,16 @@ By Ronald Kinch.
 
 ## Description
 
-How To site with multiple How To lists.
-Each How To list includes multiple steps.
+How To site with multiple How To subjects.
+Each How To subject includes multiple steps.
 
 ## Authors
 
 * Ronald Kinch (https://github.com/ronaldkinch)
 
 ## Sources
+
+Cribbed off of Mary Dickson for sanity checks
 
 ## Contributing
 

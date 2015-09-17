@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @subject.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @subject.description %>
+</p>
+
+<p>Follow these steps for <%= @subject.name %>:</p>
+<ol>
+  <% @steps.each do |step| %>
+    <li><strong><%= step.title %></strong> <%= step.detail %></li>
+  <% end %>
+</ol>
+
+<%= link_to 'Add Step', new_subject_step_path(@subject) %> |
+<%= link_to 'Edit Steps', subject_steps_path(@subject) %><br>
+<%= link_to 'Edit Subject', edit_subject_path(@subject) %> |
+<%= link_to 'Back', subjects_path %>

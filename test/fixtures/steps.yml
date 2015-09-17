@@ -1,0 +1,18 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+step_three:
+  title: Step3
+  detail: Step_3
+  subject_id: 2
+
+step_two:
+  title: Step2
+  detail: Step_2
+  subject_id: 1
+
+step_one:
+  title: Step1
+  detail: Step_1
+  subject_id: 1
+
