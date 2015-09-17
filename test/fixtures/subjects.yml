@@ -1,0 +1,12 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+two:
+  name: Subject2
+  description: How to 2
+  id: 2
+
+one:
+  name: Subject1
+  description: How to 1
+  id: 1
